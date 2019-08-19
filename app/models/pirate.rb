@@ -3,10 +3,10 @@
 
   PIRATES = []
 
-  def initialize(args)
-    @name = args[:name]
-    @weight = args[:weight]
-    @height = args[:height]
+  def initialize(params)
+    @name = params[:name]
+    @weight = params[:weight]
+    @height = params[:height]
     PIRATES << self
   end
 
